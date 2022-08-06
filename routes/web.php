@@ -26,6 +26,8 @@ use App\Http\Controllers\ServiceProviderController;
 use App\Http\Middleware\ValidSellerOrCustomer;
 use App\Http\Middleware\ValidSProviderOrCustomer;
 use App\Http\Middleware\ValidSProviderOrSeller;
+use App\Http\Controllers\PDFController;
+
 
 Route::get('/',[ProductController::class,'showProducts'])->name('/');
 Route::get('/error', function () {
@@ -238,6 +240,10 @@ Route::post('/serviceRating',[ServiceRatingController::class,'confirmServiceRati
 Route::get('deleteServiceReview/{id}',[ServiceRatingController::class,'deleteServiceReview'])->name('deleteServiceReview/{id}')->middleware([ValidSProviderOrCustomer::class]);
 Route::get('updateServiceReview/{id}',[ServiceRatingController::class,'editServiceReview'])->name('updateServiceReview/{id}')->middleware([ValidSProviderOrCustomer::class]);
 Route::post('updateServiceReview',[ServiceRatingController::class,'updateServiceReview'])->name('updateServiceReview');
+
+
+//Email Service Controller
+Route::get('send-email', [PDFController::class, 'invoiceMail']);
 
 
 
