@@ -26,7 +26,7 @@ class PDFController extends Controller
         });
         
       
-        return redirect("http://localhost:3000/");
+        return redirect("http://localhost:3000/dashboard");
        
         
     }

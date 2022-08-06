@@ -27,6 +27,7 @@ use App\Http\Middleware\ValidSellerOrCustomer;
 use App\Http\Middleware\ValidSProviderOrCustomer;
 use App\Http\Middleware\ValidSProviderOrSeller;
 use App\Http\Controllers\PDFController;
+use App\Http\Controllers\PieChartController;
 
 
 Route::get('/',[ProductController::class,'showProducts'])->name('/');
@@ -244,6 +245,10 @@ Route::post('updateServiceReview',[ServiceRatingController::class,'updateService
 
 //Email Service Controller
 Route::get('send-email', [PDFController::class, 'invoiceMail']);
+
+// Pie chart Controller
+Route::get('productPieChart',[PieChartController::class,'productPieChart']);
+Route::get('allOrderListStatusPieChart',[PieChartController::class,'allOrderListStatusPieChart']);
 
 
 
