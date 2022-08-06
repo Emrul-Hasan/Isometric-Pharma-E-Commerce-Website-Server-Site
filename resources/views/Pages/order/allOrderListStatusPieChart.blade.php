@@ -50,7 +50,7 @@
   
   <body>
     <div id="piechart_3d"style="width: 1000px; height: 500px;" ></div>
-    <a href="http://localhost:3000/orderList" style =" background-image: linear-gradient(90deg, aqua, blue);border-radius: 10px; padding: 10px; border: 1px solid blue;">Back</a>
+    <a href="http://localhost:3000/orderList" style =" color:white;background-image: linear-gradient(90deg, aqua, blue);border-radius: 10px; padding: 10px; border: 1px solid blue;">Back</a>
 
     
     
