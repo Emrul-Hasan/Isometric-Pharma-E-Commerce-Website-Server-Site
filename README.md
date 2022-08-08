@@ -37,4 +37,5 @@
 *	In the backend, used Laravel which is a popular, free, and open-source MVC-based web framework for PHP using authentication,routing, sessions, and caching.
 
 
-## ------------------ Project Report:[ Isometric Pharma](https://drive.google.com/file/d/1C_JmiL8Y4LvY262xjX4vpgISR68SIHca/view?usp=sharing)-----------------
+## -------- Project Report:[ Isometric Pharma](https://drive.google.com/file/d/1C_JmiL8Y4LvY262xjX4vpgISR68SIHca/view?usp=sharing)--------
+## -------- Client site Github Link:[ Isometric Pharma Online Pharmacies ](https://github.com/Emrul-Hasan/Isometric-Pharma-E-Commerce-Website-Client-Site)--------
