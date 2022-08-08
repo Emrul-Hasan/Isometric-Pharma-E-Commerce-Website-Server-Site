@@ -28,6 +28,7 @@ use App\Http\Middleware\ValidSProviderOrCustomer;
 use App\Http\Middleware\ValidSProviderOrSeller;
 use App\Http\Controllers\PDFController;
 use App\Http\Controllers\PieChartController;
+use App\Http\Controllers\mailController;
 
 
 Route::get('/',[ProductController::class,'showProducts'])->name('/');
@@ -249,6 +250,10 @@ Route::get('send-email', [PDFController::class, 'invoiceMail']);
 // Pie chart Controller
 Route::get('productPieChart',[PieChartController::class,'productPieChart']);
 Route::get('allOrderListStatusPieChart',[PieChartController::class,'allOrderListStatusPieChart']);
+
+
+// Email Verification
+Route::get('emailToVerify', [mailController::class, 'signupMail']);
 
 
 
