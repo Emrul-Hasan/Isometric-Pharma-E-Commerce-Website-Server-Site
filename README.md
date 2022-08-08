@@ -30,4 +30,11 @@
 *	Order delivery, Contact the customer, can give delivery status 
 *	Delivery & payment history
 
+### Technologies are used for this project
+*	This Project is done by ReactJs which is a very popular Js library.
+*	React-Query is used for easy state management, easy data fetch, and data caching system.
+*	React bootstrap, React toast, React-hook-forms, React-icons, and Axios are also used here.
+*	In the backend, used Laravel which is a popular, free, and open-source MVC-based web framework for PHP using authentication,routing, sessions, and caching.
+
+
 ## ------------------ Project Report:[ Isometric Pharma](https://drive.google.com/file/d/1C_JmiL8Y4LvY262xjX4vpgISR68SIHca/view?usp=sharing)-----------------
